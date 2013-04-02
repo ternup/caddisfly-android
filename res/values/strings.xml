@@ -1,5 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string name="hello">Hello caddisfly-android!</string>
-    <string name="app_name">caddisfly-android</string>
+    <string name="app_name">Caddisfly Reader</string>
+    <string name="test_id">Test ID</string>
+    <string name="test_type">Test Type</string>
+    <string name="test_time">Test Time</string>
+    <string name="test_result">Result</string>
+    <string name="device_id">Device ID</string>
+    <string name="location">Location</string>
+    <string name="submit">Submit</string>
+    <string name="connect">Connect</string>
 </resources>
