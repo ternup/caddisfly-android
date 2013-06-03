@@ -39,6 +39,7 @@ public class CaddisflyReader extends Activity {
     private EditText testType;
     private EditText deviceId;
     private EditText testId;
+    private EditText testLocation;
     private EditText testResult;
     private EditText testTime;
 
@@ -58,6 +59,7 @@ public class CaddisflyReader extends Activity {
         setContentView(R.layout.relative);
         this.location = (EditText) findViewById(R.id.location);
         this.testId = (EditText) findViewById(R.id.test_id);
+        this.testLocation = (EditText) findViewById(R.id.test_location);
         this.testType = (EditText) findViewById(R.id.test_type);
         this.testResult = (EditText) findViewById(R.id.test_result);
         this.deviceId = (EditText) findViewById(R.id.device_id);
@@ -114,6 +116,8 @@ public class CaddisflyReader extends Activity {
                         CaddisflyReader.this.deviceId.getText().toString()));
                     nvp.add(new BasicNameValuePair("test_id",
                         CaddisflyReader.this.testId.getText().toString()));
+                    nvp.add(new BasicNameValuePair("test_location",
+                            CaddisflyReader.this.testLocation.getText().toString()));
                     nvp.add(new BasicNameValuePair("test_type",
                         CaddisflyReader.this.testType.getText().toString()));
                     nvp.add(new BasicNameValuePair("test_time",

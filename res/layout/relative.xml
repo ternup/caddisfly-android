@@ -21,6 +21,7 @@
         android:layout_alignTop="@+id/device_id_lbl"
         android:layout_toRightOf="@+id/test_time_lbl"
         android:ems="10" >
+
         <requestFocus />
     </EditText>
 
@@ -36,17 +37,34 @@
         android:id="@+id/test_id"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/device_id"
         android:layout_alignLeft="@+id/device_id"
+        android:layout_below="@+id/device_id"
         android:layout_toRightOf="@+id/test_id_lbl"
+        android:ems="10" />
+
+    <TextView
+        android:id="@+id/test_location_lbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test_id_lbl"
+        android:layout_alignTop="@+id/test_location"
+        android:text="@string/test_location" />
+
+    <EditText
+        android:id="@+id/test_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test_id"
+        android:layout_below="@+id/test_id"
+        android:layout_toRightOf="@+id/test_location_lbl"
         android:ems="10" />
 
     <TextView
         android:id="@+id/test_type_lbl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignLeft="@+id/test_id_lbl"
-        android:layout_below="@+id/test_id"
+        android:layout_alignLeft="@+id/test_location_lbl"
+        android:layout_below="@+id/test_location"
         android:layout_marginTop="10dp"
         android:text="@string/test_type" />
 
@@ -89,18 +107,18 @@
         android:id="@+id/location"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_toRightOf="@+id/location_lbl"
-        android:layout_alignTop="@+id/location_lbl"
         android:layout_alignLeft="@+id/test_result"
+        android:layout_alignTop="@+id/location_lbl"
+        android:layout_toRightOf="@+id/location_lbl"
         android:ems="10" />
 
     <EditText
         android:id="@+id/test_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/test_time"
         android:layout_alignTop="@+id/test_result_lbl"
         android:layout_toRightOf="@+id/test_result_lbl"
-        android:layout_alignLeft="@+id/test_time"
         android:ems="10" />
 
     <EditText
@@ -116,8 +134,8 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignTop="@+id/submit"
-        android:text="@string/connect" 
-        android:ems="5" />
+        android:ems="5"
+        android:text="@string/connect" />
 
     <Button
         android:id="@+id/submit"

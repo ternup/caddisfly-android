@@ -1,107 +1,118 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
->
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:text="@string/test_id"
-    android:layout_weight="1.0"
-/>
-<EditText android:id="@+id/test_id"
-    android:layout_width="fill_parent"
-    android:layout_height="wrap_content"
-    android:layout_weight="1.0"
-/>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:text="@string/test_type"
-/>
-<EditText android:id="@+id/test_type"
-    android:layout_width="120px"
-    android:layout_height="100px"
-/>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:text="@string/device_id"
-/>
-<EditText android:id="@+id/device_id"
-    android:layout_width="120px"
-    android:layout_height="100px"
-/>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:text="@string/test_time"
-/>
-<EditText android:id="@+id/test_time"
-    android:layout_width="120px"
-    android:layout_height="100px"
-/>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:text="@string/test_result"
-/>
-<EditText android:id="@+id/test_result"
-    android:layout_width="120px"
-    android:layout_height="100px"
-/>
-</LinearLayout>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="horizontal"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
->
-<TextView 
-    android:layout_width="120dp"
-    android:layout_height="120dp"
-    android:text="@string/location"
-/>
-<EditText android:id="@+id/location"
-    android:layout_width="120px"
-    android:layout_height="100px"
-/>
-</LinearLayout>
+    android:orientation="vertical" >
 
-<Button
-    android:id="@+id/submit"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
-    android:text="@string/submit"
-    android:gravity="right"
-/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="@string/test_id" />
+
+        <EditText
+            android:id="@+id/test_id"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/test_type" />
+
+        <EditText
+            android:id="@+id/test_type"
+            android:layout_width="120px"
+            android:layout_height="100px" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/device_id" />
+
+        <EditText
+            android:id="@+id/device_id"
+            android:layout_width="120px"
+            android:layout_height="100px" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/test_time" />
+
+        <EditText
+            android:id="@+id/test_time"
+            android:layout_width="120px"
+            android:layout_height="100px" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/test_result" />
+
+        <EditText
+            android:id="@+id/test_result"
+            android:layout_width="120px"
+            android:layout_height="100px" />
+    </LinearLayout>
+
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:text="@string/location" />
+
+        <EditText
+            android:id="@+id/location"
+            android:layout_width="120px"
+            android:layout_height="100px" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="right"
+        android:text="@string/submit" />
+
 </LinearLayout>
