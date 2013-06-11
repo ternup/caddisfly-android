@@ -3,7 +3,18 @@
     <string name="hello">Hello caddisfly-android!</string>
     <string name="app_name">Caddisfly Reader</string>
     <string name="test_id">Test ID</string>
-    <string name="test_location">Source</string>
+    <string name="test_location">Source Name</string>
+    <string name="source_type">Source Type</string>
+    <string-array name="source_types">
+    	<item>Handpump</item>
+    	<item>Tubewell</item>
+    	<item>River / Stream</item>
+    	<item>Open Well</item>
+    	<item>Domestic Tap</item>
+    	<item>Reservoir / Pond / Lake</item>
+    	<item>Industrial</item>
+    	<item>Other</item>
+   	</string-array>
     <string name="test_type">Test Type</string>
     <string name="test_time">Test Time</string>
     <string name="test_result">Result</string>
